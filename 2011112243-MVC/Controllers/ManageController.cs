@@ -10,7 +10,7 @@ using _2011112243.MVC;
 
 namespace _2011112243.MVC
 {
-    [Authorize]
+    [AllowAnonymous]
     public class ManageController : Controller
     {
         private ApplicationSignInManager _signInManager;

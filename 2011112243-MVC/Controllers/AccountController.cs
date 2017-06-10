@@ -13,7 +13,7 @@ using _2011112243.MVC;
 
 namespace _2011112243
 {
-    [Authorize]
+    [AllowAnonymous]
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;

@@ -6,3 +6,7 @@ C:\Users\Vistwolf\Desktop\PROGRA 1\2011112243-LC2-master\2011112243-ENT\bin\Debu
 C:\Users\Vistwolf\Desktop\PROGRA 1\2011112243-LC2-master\2011112243-ENT\bin\Debug\2011112243-ENT.pdb
 C:\Users\Vistwolf\Desktop\PROGRA 1\2011112243-LC2-master\2011112243-ENT\obj\Debug\2011112243-ENT.dll
 C:\Users\Vistwolf\Desktop\PROGRA 1\2011112243-LC2-master\2011112243-ENT\obj\Debug\2011112243-ENT.pdb
+C:\Users\Harold\Desktop\2011112243-LC2-master\2011112243-ENT\bin\Debug\2011112243-ENT.dll
+C:\Users\Harold\Desktop\2011112243-LC2-master\2011112243-ENT\bin\Debug\2011112243-ENT.pdb
+C:\Users\Harold\Desktop\2011112243-LC2-master\2011112243-ENT\obj\Debug\2011112243-ENT.dll
+C:\Users\Harold\Desktop\2011112243-LC2-master\2011112243-ENT\obj\Debug\2011112243-ENT.pdb
