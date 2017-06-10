@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2011112243
 {
-    public class Empleado
+   abstract public class Empleado
     {
         public String idEmp { get; set; }
         public String nom { get; set; }
@@ -16,5 +16,7 @@ namespace _2011112243
         public String email { get; set; }
         public String direccion { get; set; }
         public String tipoEmp { get; set; }
+
+        
     }
 }

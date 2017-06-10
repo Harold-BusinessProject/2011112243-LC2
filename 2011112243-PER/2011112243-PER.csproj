@@ -49,8 +49,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2011112243DbContext.cs" />
+    <Compile Include="EntityTypeConfigurations\EmpleadoConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\TipoPagoConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\TipoComprobanteConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\ServicioConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\LugarViajeConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\ClienteConfiguration.cs" />
+    <Compile Include="EntityTypeConfigurations\BusConfiguration.cs" />
     <Compile Include="EntityTypeConfigurations\VentaConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\EmpleadoRepository.cs" />
+    <Compile Include="Repositories\TipoPagoRepository.cs" />
+    <Compile Include="Repositories\TipoComprobanteRepository.cs" />
+    <Compile Include="Repositories\ServicioRepository.cs" />
+    <Compile Include="Repositories\LugarViajeRepository.cs" />
+    <Compile Include="Repositories\ClienteRepository.cs" />
+    <Compile Include="Repositories\BusRepository.cs" />
     <Compile Include="Repositories\VentaRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
     <Compile Include="Repositories\UnityOfWork.cs" />

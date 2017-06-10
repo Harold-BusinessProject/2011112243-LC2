@@ -10,7 +10,7 @@ namespace _2011112243
     {
         public String idServicio { get; set; }
         public String tipoServicio { get; set; }
-        public String Origen { get; set; }
+        public String origen { get; set; }
         public List<Venta> Venta { get; set; }
 
         public Servicio()

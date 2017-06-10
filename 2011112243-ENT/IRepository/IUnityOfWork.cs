@@ -11,10 +11,20 @@ namespace _2011112243
 	
 
 		IVentaRepository Venta { get; }
+        IBusRepository Bus { get; }
+        IClienteRepository Cliente { get; }
+       
+        ILugarViajeRepository LugarViaje { get; }
+        IServicioRepository Servicio { get; }
+        ITipoComprobanteRepository TipoComprobante { get; }
+        ITipoPagoRepository TipoPago { get; }
+     
+      
+        IEmpleadoRepository Empleado { get; }
 
-		
 
-		int SaveChanges();
 
-	}
+        int SaveChanges();
+        void StateModified(object entity);
+    }
 }

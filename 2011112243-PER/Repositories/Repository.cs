@@ -25,12 +25,12 @@ namespace MovieStore.Persistence.Repositories
 
 		void IRepository<TEntity>.Add(TEntity entity)
 		{
-			throw new NotImplementedException();
+			
 		}
 
 		void IRepository<TEntity>.AddRange(IEnumerable<TEntity> entities)
 		{
-			throw new NotImplementedException();
+			
 		}
 
 		IEnumerable<TEntity> IRepository<TEntity>.Find(Expression<Func<TEntity, bool>> predicate)
@@ -50,22 +50,22 @@ namespace MovieStore.Persistence.Repositories
 
 		void IRepository<TEntity>.Remove(TEntity entity)
 		{
-			throw new NotImplementedException();
+			
 		}
 
 		void IRepository<TEntity>.RemoveRange(IEnumerable<TEntity> entities)
 		{
-			throw new NotImplementedException();
+			
 		}
 
 		void IRepository<TEntity>.Update(TEntity entity)
 		{
-			throw new NotImplementedException();
+			
 		}
 
 		void IRepository<TEntity>.UpdateRange(IEnumerable<TEntity> entities)
 		{
-			throw new NotImplementedException();
+			
 		}
 	}
 }

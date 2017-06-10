@@ -52,7 +52,7 @@ namespace _2011112243
                             Console.WriteLine("Email del CLiente: ");
                             venta[i]._Cliente.email = Console.ReadLine();
                             Console.WriteLine("Origen de Transporte: ");
-                            venta[i]._Servicio.Origen = Console.ReadLine();
+                            venta[i]._Servicio.origen = Console.ReadLine();
                             Console.WriteLine("ID del Tripulante 1: ");
                             String idTripulante = Console.ReadLine();
                             for (int k = 0; k < 50; k++)
@@ -182,7 +182,7 @@ namespace _2011112243
                             Console.WriteLine("Email del CLiente: ");
                             venta[i]._Cliente.email = Console.ReadLine();
                             Console.WriteLine("Origen de Transporte: ");
-                            venta[i]._Servicio.Origen = Console.ReadLine();
+                            venta[i]._Servicio.origen = Console.ReadLine();
                             Console.WriteLine("ID del Tripulante 1: ");
                             String idTripulante = Console.ReadLine();
                             for (int k = 0; k < 50; k++)

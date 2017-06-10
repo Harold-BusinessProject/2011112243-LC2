@@ -40,12 +40,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntitiesDTO\BusDTO.cs" />
+    <Compile Include="EntitiesDTO\ClienteDTO.cs" />
+    <Compile Include="EntitiesDTO\EmpleadoDTO.cs" />
+    <Compile Include="EntitiesDTO\LugarViajeDTO.cs" />
+    <Compile Include="EntitiesDTO\ServicioDTO.cs" />
+    <Compile Include="EntitiesDTO\TipoComprobanteDTO.cs" />
+    <Compile Include="EntitiesDTO\TipoPagoDTO.cs" />
+    <Compile Include="EntitiesDTO\VentaDTO.cs" />
     <Compile Include="Entities\Administrativo.cs" />
     <Compile Include="Entities\Bus.cs" />
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Empleado.cs" />
     <Compile Include="Entities\Encomienda.cs" />
     <Compile Include="Entities\LugarViaje.cs" />
+    <Compile Include="IRepository\IEmpleadoRepository.cs" />
+    <Compile Include="IRepository\IBusRepository.cs" />
+    <Compile Include="IRepository\ITipoPagoRepository.cs" />
+    <Compile Include="IRepository\ITipoComprobanteRepository.cs" />
+    <Compile Include="IRepository\IServicioRepository.cs" />
+    <Compile Include="IRepository\ILugarViajeRepository.cs" />
+    <Compile Include="IRepository\IClienteRepository.cs" />
     <Compile Include="IRepository\IVentaRepository.cs" />
     <Compile Include="IRepository\IRepository.cs" />
     <Compile Include="IRepository\IUnityOfWork.cs" />

@@ -10,5 +10,8 @@ namespace _2011112243
 		IEnumerable<Venta> GetVentaByAdministrativo(Administrativo administrativo);
 
 		IEnumerable<Venta> GetVentaByClienteAndAdministrativo(Cliente cliente, Administrativo administrativo);
-	}
+
+    }
 }
+
+
